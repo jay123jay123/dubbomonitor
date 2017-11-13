@@ -59,3 +59,7 @@ def AllMethod(tablename):
         allmethodlist.append(tmplist)
     CloseMysql(conn,cursor)
     return  allmethodlist
+
+def AlarmWeixin(str):
+    os.system("curl -X POST -d 'touser=dubboMonitor&content='%s http://192.168.8.253/sendchat.php >/dev/null 2>&1" % (str))
+    return 0

@@ -30,18 +30,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="avg3.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/avg3.py">
+      <file leaf-file-name="alarmFail.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/alarmFail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="126" column="0" lean-forward="true" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+            <state relative-caret-position="644">
+              <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding>
-                <element signature="e#45#61#0" expanded="true" />
-                <marker date="1510042446000" expanded="true" signature="252:451" ph="select servi... missing_value" />
-                <marker date="1510042446000" expanded="true" signature="564:922" ph="create table... missing_value" />
-                <marker date="1510042446000" expanded="true" signature="1058:1182" ph="insert into `missing_value`... " />
-                <marker date="1510042446000" expanded="true" signature="1500:1515" ph="drop table `... " />
-                <marker date="1510042446000" expanded="true" signature="1666:1699" ph="select count... missing_value" />
+                <marker date="1510550944000" expanded="true" signature="213:277" ph="select sum(f... avg_missing_value_missing_value" />
+                <marker date="1510550944000" expanded="true" signature="363:413" ph="update appli... " />
+                <marker date="1510550944000" expanded="true" signature="512:654" ph="select failu... missing_value" />
               </folding>
             </state>
           </provider>
@@ -62,7 +59,12 @@
       <find>7days</find>
       <find>MySQL</find>
       <find>MySQLdb</find>
+      <find>AlarmRange</find>
+      <find>from alarm</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -70,14 +72,18 @@
         <option value="$PROJECT_DIR$/1.py" />
         <option value="$PROJECT_DIR$/3.py" />
         <option value="$PROJECT_DIR$/alarm.py" />
-        <option value="$PROJECT_DIR$/alarm2.py" />
         <option value="$PROJECT_DIR$/avg.py" />
-        <option value="$PROJECT_DIR$/alarm1.py" />
         <option value="$PROJECT_DIR$/avg2.py" />
         <option value="$PROJECT_DIR$/4.py" />
         <option value="$PROJECT_DIR$/2.py" />
-        <option value="$PROJECT_DIR$/inc.py" />
         <option value="$PROJECT_DIR$/avg3.py" />
+        <option value="$PROJECT_DIR$/alarm1.py" />
+        <option value="$PROJECT_DIR$/alarm2.py" />
+        <option value="$PROJECT_DIR$/ReleaseCalicoIP.py" />
+        <option value="$PROJECT_DIR$/alarmFailCount.py" />
+        <option value="$PROJECT_DIR$/inc.py" />
+        <option value="$PROJECT_DIR$/alarmElasped.py" />
+        <option value="$PROJECT_DIR$/alarmFail.py" />
       </list>
     </option>
   </component>
@@ -109,6 +115,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
@@ -124,7 +131,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -152,11 +158,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.常规" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/package.py" />
   </component>
@@ -276,17 +283,17 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328541" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14732143" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2547486" sideWeight="0.5021322" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14636871" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3091518" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25223213" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18973215" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08528785" sideWeight="0.495671" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19669509" sideWeight="0.495671" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10010649" sideWeight="0.504329" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2544643" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2547486" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -350,55 +357,58 @@
           <line>2</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/alarmElasped.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/alarm.py">
+    <entry file="file://$PROJECT_DIR$/alarmElasped.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2622">
-          <caret line="138" column="13" lean-forward="false" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="13" />
+        <state relative-caret-position="3211">
+          <caret line="169" column="0" lean-forward="true" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
           <folding>
-            <marker date="1509590534000" expanded="true" signature="0:44" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="45:97" ph="import ..." />
-            <marker date="1509590534000" expanded="true" signature="206:377" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="218:314" ph="insert into alarm... " />
-            <marker date="1509590534000" expanded="true" signature="441:643" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="453:580" ph="update alarm... " />
-            <marker date="1509590534000" expanded="true" signature="695:865" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="707:814" ph="update alarm... " />
-            <marker date="1509590534000" expanded="true" signature="895:1016" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="907:988" ph="select modul... " />
-            <marker date="1509590534000" expanded="true" signature="907:989" ph="select servi... alarm" />
-            <marker date="1509590534000" expanded="true" signature="1069:1231" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="1081:1179" ph="select count... alarm" />
-            <marker date="1509590534000" expanded="true" signature="1265:1442" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="1277:1391" ph="select servi... missing_value" />
-            <marker date="1509590534000" expanded="true" signature="1500:1693" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="1512:1605" ph="select servi... missing_value" />
-            <marker date="1509590534000" expanded="true" signature="1512:1630" ph="select elaps... missing_value" />
-            <marker date="1509590534000" expanded="true" signature="1723:2101" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="1900:2052" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2156:2367" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2416:3104" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2588:3086" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2732:2776" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2977:3086" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3128:3675" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3424:3632" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3448:3632" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3534:3632" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3698:3836" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3867:4714" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3914:4684" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4026:4137" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4151:4241" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4271:4684" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4757:4864" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4880:5055" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4970:5055" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="0:44" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="45:97" ph="import ..." />
+            <marker date="1510541682000" expanded="true" signature="174:563" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="640:840" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="652:765" ph="insert into alarm... " />
+            <marker date="1510541682000" expanded="true" signature="917:1161" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="929:1085" ph="update alarm... " />
+            <marker date="1510541682000" expanded="true" signature="1213:1383" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="1225:1332" ph="update alarm... " />
+            <marker date="1510541682000" expanded="true" signature="1413:1534" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="1425:1506" ph="select modul... " />
+            <marker date="1510541682000" expanded="true" signature="1587:1759" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="1599:1707" ph="select num,p... alarm" />
+            <marker date="1510541682000" expanded="true" signature="1793:1971" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="1805:1919" ph="select servi... missing_value" />
+            <marker date="1510541682000" expanded="true" signature="2029:2222" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="2041:2159" ph="select elaps... missing_value" />
+            <marker date="1510541682000" expanded="true" signature="2252:2630" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="2429:2581" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="2685:2896" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="2945:3807" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="3117:3789" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="3269:3313" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="3557:3789" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="3831:4378" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="4127:4335" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="4151:4335" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="4237:4335" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="4409:5483" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="4456:5453" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="4629:4745" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="4759:4854" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="5045:5453" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="5526:5633" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="5649:5824" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="5739:5824" ph="..." />
           </folding>
         </state>
       </provider>
@@ -407,46 +417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2622">
           <caret line="138" column="13" lean-forward="false" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="13" />
-          <folding>
-            <marker date="1509590534000" expanded="true" signature="0:44" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="45:97" ph="import ..." />
-            <marker date="1509590534000" expanded="true" signature="206:377" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="218:314" ph="insert into alarm... " />
-            <marker date="1509590534000" expanded="true" signature="441:643" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="453:580" ph="update alarm... " />
-            <marker date="1509590534000" expanded="true" signature="695:865" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="707:814" ph="update alarm... " />
-            <marker date="1509590534000" expanded="true" signature="895:1016" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="907:988" ph="select modul... " />
-            <marker date="1509590534000" expanded="true" signature="907:989" ph="select servi... alarm" />
-            <marker date="1509590534000" expanded="true" signature="1069:1231" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="1081:1179" ph="select count... alarm" />
-            <marker date="1509590534000" expanded="true" signature="1265:1442" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="1277:1391" ph="select servi... missing_value" />
-            <marker date="1509590534000" expanded="true" signature="1500:1693" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="1512:1605" ph="select servi... missing_value" />
-            <marker date="1509590534000" expanded="true" signature="1512:1630" ph="select elaps... missing_value" />
-            <marker date="1509590534000" expanded="true" signature="1723:2101" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="1900:2052" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2156:2367" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2416:3104" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2588:3086" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2732:2776" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2977:3086" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3128:3675" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3424:3632" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3448:3632" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3534:3632" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3698:3836" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3867:4714" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3914:4684" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4026:4137" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4151:4241" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4271:4684" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4757:4864" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4880:5055" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4970:5055" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -454,46 +424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2622">
           <caret line="138" column="13" lean-forward="false" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="13" />
-          <folding>
-            <marker date="1509590534000" expanded="true" signature="0:44" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="45:97" ph="import ..." />
-            <marker date="1509590534000" expanded="true" signature="206:377" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="218:314" ph="insert into alarm... " />
-            <marker date="1509590534000" expanded="true" signature="441:643" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="453:580" ph="update alarm... " />
-            <marker date="1509590534000" expanded="true" signature="695:865" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="707:814" ph="update alarm... " />
-            <marker date="1509590534000" expanded="true" signature="895:1016" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="907:988" ph="select modul... " />
-            <marker date="1509590534000" expanded="true" signature="907:989" ph="select servi... alarm" />
-            <marker date="1509590534000" expanded="true" signature="1069:1231" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="1081:1179" ph="select count... alarm" />
-            <marker date="1509590534000" expanded="true" signature="1265:1442" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="1277:1391" ph="select servi... missing_value" />
-            <marker date="1509590534000" expanded="true" signature="1500:1693" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="1512:1605" ph="select servi... missing_value" />
-            <marker date="1509590534000" expanded="true" signature="1512:1630" ph="select elaps... missing_value" />
-            <marker date="1509590534000" expanded="true" signature="1723:2101" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="1900:2052" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2156:2367" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2416:3104" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2588:3086" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2732:2776" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2977:3086" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3128:3675" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3424:3632" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3448:3632" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3534:3632" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3698:3836" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3867:4714" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3914:4684" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4026:4137" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4151:4241" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4271:4684" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4757:4864" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4880:5055" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4970:5055" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -501,46 +431,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2622">
           <caret line="138" column="13" lean-forward="false" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="13" />
-          <folding>
-            <marker date="1509590534000" expanded="true" signature="0:44" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="45:97" ph="import ..." />
-            <marker date="1509590534000" expanded="true" signature="206:377" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="218:314" ph="insert into alarm... " />
-            <marker date="1509590534000" expanded="true" signature="441:643" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="453:580" ph="update alarm... " />
-            <marker date="1509590534000" expanded="true" signature="695:865" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="707:814" ph="update alarm... " />
-            <marker date="1509590534000" expanded="true" signature="895:1016" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="907:988" ph="select modul... " />
-            <marker date="1509590534000" expanded="true" signature="907:989" ph="select servi... alarm" />
-            <marker date="1509590534000" expanded="true" signature="1069:1231" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="1081:1179" ph="select count... alarm" />
-            <marker date="1509590534000" expanded="true" signature="1265:1442" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="1277:1391" ph="select servi... missing_value" />
-            <marker date="1509590534000" expanded="true" signature="1500:1693" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="1512:1605" ph="select servi... missing_value" />
-            <marker date="1509590534000" expanded="true" signature="1512:1630" ph="select elaps... missing_value" />
-            <marker date="1509590534000" expanded="true" signature="1723:2101" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="1900:2052" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2156:2367" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2416:3104" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2588:3086" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2732:2776" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2977:3086" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3128:3675" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3424:3632" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3448:3632" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3534:3632" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3698:3836" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3867:4714" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3914:4684" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4026:4137" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4151:4241" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4271:4684" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4757:4864" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4880:5055" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4970:5055" ph="..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alarm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2622">
+          <caret line="138" column="13" lean-forward="false" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -548,46 +445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2698">
           <caret line="142" column="28" lean-forward="true" selection-start-line="142" selection-start-column="28" selection-end-line="142" selection-end-column="28" />
-          <folding>
-            <marker date="1509590534000" expanded="true" signature="0:44" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="45:97" ph="import ..." />
-            <marker date="1509590534000" expanded="true" signature="206:377" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="218:314" ph="insert into alarm... " />
-            <marker date="1509590534000" expanded="true" signature="441:643" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="453:580" ph="update alarm... " />
-            <marker date="1509590534000" expanded="true" signature="695:865" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="707:814" ph="update alarm... " />
-            <marker date="1509590534000" expanded="true" signature="895:1016" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="907:988" ph="select modul... " />
-            <marker date="1509590534000" expanded="true" signature="907:989" ph="select servi... alarm" />
-            <marker date="1509590534000" expanded="true" signature="1069:1231" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="1081:1179" ph="select count... alarm" />
-            <marker date="1509590534000" expanded="true" signature="1265:1442" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="1277:1391" ph="select servi... missing_value" />
-            <marker date="1509590534000" expanded="true" signature="1500:1693" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="1512:1605" ph="select servi... missing_value" />
-            <marker date="1509590534000" expanded="true" signature="1512:1630" ph="select elaps... missing_value" />
-            <marker date="1509590534000" expanded="true" signature="1723:2101" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="1900:2052" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2156:2367" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2416:3104" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2588:3086" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2732:2776" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2977:3086" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3128:3675" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3424:3632" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3448:3632" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3534:3632" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3698:3836" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3867:4714" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3914:4684" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4026:4137" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4151:4241" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4271:4684" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4757:4864" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4880:5055" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4970:5055" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -677,182 +534,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/package.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1144">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/package.py" />
     <entry file="file://$PROJECT_DIR$/avg.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-          <folding>
-            <marker date="1509607902000" expanded="true" signature="0:44" ph="..." />
-            <marker date="1509607902000" expanded="false" signature="45:97" ph="import ..." />
-            <marker date="1509607902000" expanded="true" signature="179:402" ph="..." />
-            <marker date="1509607902000" expanded="true" signature="191:349" ph="select servi... missing_value" />
-            <marker date="1509607902000" expanded="true" signature="435:834" ph="..." />
-            <marker date="1509607902000" expanded="true" signature="447:805" ph="create table... missing_value" />
-            <marker date="1509607902000" expanded="true" signature="903:1070" ph="..." />
-            <marker date="1509607902000" expanded="true" signature="915:1003" ph="insert into `missing_value`... " />
-            <marker date="1509607902000" expanded="true" signature="1100:1220" ph="..." />
-            <marker date="1509607902000" expanded="true" signature="1247:1372" ph="..." />
-            <marker date="1509607902000" expanded="true" signature="1295:1310" ph="drop table `... " />
-            <marker date="1509607902000" expanded="true" signature="1400:1599" ph="..." />
-            <marker date="1509607902000" expanded="true" signature="1461:1494" ph="select count... missing_value" />
-            <marker date="1509607902000" expanded="true" signature="1666:1823" ph="..." />
-            <marker date="1509607902000" expanded="true" signature="1858:2234" ph="..." />
-            <marker date="1509607902000" expanded="true" signature="2037:2187" ph="..." />
-            <marker date="1509607902000" expanded="true" signature="2279:2697" ph="..." />
-            <marker date="1509607902000" expanded="true" signature="2508:2678" ph="..." />
-            <marker date="1509607902000" expanded="true" signature="2566:2678" ph="..." />
-            <marker date="1509607902000" expanded="true" signature="2737:3190" ph="..." />
-            <marker date="1509607902000" expanded="true" signature="2876:2927" ph="..." />
-            <marker date="1509607902000" expanded="true" signature="3072:3190" ph="..." />
-            <marker date="1509607902000" expanded="true" signature="3204:3327" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alarm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1509590534000" expanded="true" signature="0:44" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="45:97" ph="import ..." />
-            <marker date="1509590534000" expanded="true" signature="206:377" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="218:314" ph="insert into alarm... " />
-            <marker date="1509590534000" expanded="true" signature="441:643" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="453:580" ph="update alarm... " />
-            <marker date="1509590534000" expanded="true" signature="695:865" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="707:814" ph="update alarm... " />
-            <marker date="1509590534000" expanded="true" signature="895:1016" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="907:988" ph="select modul... " />
-            <marker date="1509590534000" expanded="true" signature="907:989" ph="select servi... alarm" />
-            <marker date="1509590534000" expanded="true" signature="1069:1231" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="1081:1179" ph="select count... alarm" />
-            <marker date="1509590534000" expanded="true" signature="1265:1442" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="1277:1391" ph="select servi... missing_value" />
-            <marker date="1509590534000" expanded="true" signature="1500:1693" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="1512:1605" ph="select servi... missing_value" />
-            <marker date="1509590534000" expanded="true" signature="1512:1630" ph="select elaps... missing_value" />
-            <marker date="1509590534000" expanded="true" signature="1723:2101" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="1900:2052" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2156:2367" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2416:3104" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2588:3086" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2732:2776" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="2977:3086" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3128:3675" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3424:3632" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3448:3632" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3534:3632" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3698:3836" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3867:4714" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="3914:4684" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4026:4137" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4151:4241" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4271:4684" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4757:4864" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4880:5055" ph="..." />
-            <marker date="1509590534000" expanded="true" signature="4970:5055" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alarm1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1509614610000" expanded="true" signature="0:44" ph="..." />
-            <marker date="1509614610000" expanded="false" signature="45:97" ph="import ..." />
-            <marker date="1509614610000" expanded="true" signature="174:541" ph="..." />
-            <marker date="1509614610000" expanded="true" signature="605:776" ph="..." />
-            <marker date="1509614610000" expanded="true" signature="617:713" ph="insert into alarm... " />
-            <marker date="1509614610000" expanded="true" signature="840:1042" ph="..." />
-            <marker date="1509614610000" expanded="true" signature="852:979" ph="update alarm... " />
-            <marker date="1509614610000" expanded="true" signature="1094:1264" ph="..." />
-            <marker date="1509614610000" expanded="true" signature="1106:1213" ph="update alarm... " />
-            <marker date="1509614610000" expanded="true" signature="1294:1415" ph="..." />
-            <marker date="1509614610000" expanded="true" signature="1306:1387" ph="select modul... " />
-            <marker date="1509614610000" expanded="true" signature="1468:1630" ph="..." />
-            <marker date="1509614610000" expanded="true" signature="1480:1578" ph="select num,p... alarm" />
-            <marker date="1509614610000" expanded="true" signature="1664:1842" ph="..." />
-            <marker date="1509614610000" expanded="true" signature="1676:1790" ph="select servi... missing_value" />
-            <marker date="1509614610000" expanded="true" signature="1900:2093" ph="..." />
-            <marker date="1509614610000" expanded="true" signature="1912:2030" ph="select elaps... missing_value" />
-            <marker date="1509614610000" expanded="true" signature="2123:2501" ph="..." />
-            <marker date="1509614610000" expanded="true" signature="2300:2452" ph="..." />
-            <marker date="1509614610000" expanded="true" signature="2556:2767" ph="..." />
-            <marker date="1509614610000" expanded="true" signature="2816:3543" ph="..." />
-            <marker date="1509614610000" expanded="true" signature="2988:3525" ph="..." />
-            <marker date="1509614610000" expanded="true" signature="3133:3177" ph="..." />
-            <marker date="1509614610000" expanded="true" signature="3187:3224" ph="..." />
-            <marker date="1509614610000" expanded="true" signature="3416:3525" ph="..." />
-            <marker date="1509614610000" expanded="true" signature="3567:4114" ph="..." />
-            <marker date="1509614610000" expanded="true" signature="3863:4071" ph="..." />
-            <marker date="1509614610000" expanded="true" signature="3887:4071" ph="..." />
-            <marker date="1509614610000" expanded="true" signature="3973:4071" ph="..." />
-            <marker date="1509614610000" expanded="true" signature="4137:4275" ph="..." />
-            <marker date="1509614610000" expanded="true" signature="4306:5153" ph="..." />
-            <marker date="1509614610000" expanded="true" signature="4353:5123" ph="..." />
-            <marker date="1509614610000" expanded="true" signature="4465:4576" ph="..." />
-            <marker date="1509614610000" expanded="true" signature="4590:4680" ph="..." />
-            <marker date="1509614610000" expanded="true" signature="4710:5123" ph="..." />
-            <marker date="1509614610000" expanded="true" signature="5196:5303" ph="..." />
-            <marker date="1509614610000" expanded="true" signature="5319:5494" ph="..." />
-            <marker date="1509614610000" expanded="true" signature="5409:5494" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alarm2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="35" column="3" lean-forward="false" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="151" />
-          <folding>
-            <marker date="1509606560000" expanded="true" signature="0:44" ph="..." />
-            <marker date="1509606560000" expanded="false" signature="45:97" ph="import ..." />
-            <marker date="1509606560000" expanded="true" signature="236:407" ph="..." />
-            <marker date="1509606560000" expanded="true" signature="248:344" ph="insert into alarm... " />
-            <marker date="1509606560000" expanded="true" signature="471:673" ph="..." />
-            <marker date="1509606560000" expanded="true" signature="483:610" ph="update alarm... " />
-            <marker date="1509606560000" expanded="true" signature="725:895" ph="..." />
-            <marker date="1509606560000" expanded="true" signature="737:844" ph="update alarm... " />
-            <marker date="1509606560000" expanded="true" signature="925:1046" ph="..." />
-            <marker date="1509606560000" expanded="true" signature="937:1018" ph="select modul... " />
-            <marker date="1509606560000" expanded="true" signature="1099:1261" ph="..." />
-            <marker date="1509606560000" expanded="true" signature="1111:1209" ph="select num,p... alarm" />
-            <marker date="1509606560000" expanded="true" signature="1295:1478" ph="..." />
-            <marker date="1509606560000" expanded="true" signature="1307:1426" ph="select servi... missing_value" />
-            <marker date="1509606560000" expanded="true" signature="1536:1734" ph="..." />
-            <marker date="1509606560000" expanded="true" signature="1548:1671" ph="select failu... missing_value" />
-            <marker date="1509606560000" expanded="true" signature="1764:2142" ph="..." />
-            <marker date="1509606560000" expanded="true" signature="1941:2093" ph="..." />
-            <marker date="1509606560000" expanded="true" signature="2197:2408" ph="..." />
-            <marker date="1509606560000" expanded="true" signature="2457:3145" ph="..." />
-            <marker date="1509606560000" expanded="true" signature="2629:3127" ph="..." />
-            <marker date="1509606560000" expanded="true" signature="2773:2817" ph="..." />
-            <marker date="1509606560000" expanded="true" signature="3018:3127" ph="..." />
-            <marker date="1509606560000" expanded="true" signature="3169:3716" ph="..." />
-            <marker date="1509606560000" expanded="true" signature="3465:3673" ph="..." />
-            <marker date="1509606560000" expanded="true" signature="3489:3673" ph="..." />
-            <marker date="1509606560000" expanded="true" signature="3575:3673" ph="..." />
-            <marker date="1509606560000" expanded="true" signature="3739:3877" ph="..." />
-            <marker date="1509606560000" expanded="true" signature="3908:4755" ph="..." />
-            <marker date="1509606560000" expanded="true" signature="3955:4725" ph="..." />
-            <marker date="1509606560000" expanded="true" signature="4067:4178" ph="..." />
-            <marker date="1509606560000" expanded="true" signature="4192:4282" ph="..." />
-            <marker date="1509606560000" expanded="true" signature="4312:4725" ph="..." />
-            <marker date="1509606560000" expanded="true" signature="4798:4905" ph="..." />
-            <marker date="1509606560000" expanded="true" signature="4921:5096" ph="..." />
-            <marker date="1509606560000" expanded="true" signature="5011:5096" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -860,32 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="125" column="16" lean-forward="false" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="16" />
-          <folding>
-            <marker date="1509705390000" expanded="true" signature="0:44" ph="..." />
-            <marker date="1509705390000" expanded="true" signature="45:52" ph="import ..." />
-            <marker date="1509705390000" expanded="true" signature="217:496" ph="..." />
-            <marker date="1509705390000" expanded="true" signature="229:428" ph="select servi... missing_value" />
-            <marker date="1509705390000" expanded="true" signature="529:928" ph="..." />
-            <marker date="1509705390000" expanded="true" signature="541:899" ph="create table... missing_value" />
-            <marker date="1509705390000" expanded="true" signature="1023:1252" ph="..." />
-            <marker date="1509705390000" expanded="true" signature="1035:1159" ph="insert into `missing_value`... " />
-            <marker date="1509705390000" expanded="true" signature="1282:1402" ph="..." />
-            <marker date="1509705390000" expanded="true" signature="1429:1554" ph="..." />
-            <marker date="1509705390000" expanded="true" signature="1477:1492" ph="drop table `... " />
-            <marker date="1509705390000" expanded="true" signature="1582:1781" ph="..." />
-            <marker date="1509705390000" expanded="true" signature="1643:1676" ph="select count... missing_value" />
-            <marker date="1509705390000" expanded="true" signature="1875:2058" ph="..." />
-            <marker date="1509705390000" expanded="true" signature="2093:2533" ph="..." />
-            <marker date="1509705390000" expanded="true" signature="2272:2486" ph="..." />
-            <marker date="1509705390000" expanded="true" signature="2578:3082" ph="..." />
-            <marker date="1509705390000" expanded="true" signature="2807:3063" ph="..." />
-            <marker date="1509705390000" expanded="true" signature="2865:3063" ph="..." />
-            <marker date="1509705390000" expanded="true" signature="3122:3658" ph="..." />
-            <marker date="1509705390000" expanded="true" signature="3261:3312" ph="..." />
-            <marker date="1509705390000" expanded="true" signature="3457:3640" ph="..." />
-            <marker date="1509705390000" expanded="true" signature="3672:3983" ph="..." />
-            <marker date="1509705390000" expanded="true" signature="3825:3983" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -893,32 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <marker date="1509705272000" expanded="true" signature="0:44" ph="..." />
-            <marker date="1509705272000" expanded="true" signature="45:114" ph="import ..." />
-            <marker date="1509705272000" expanded="true" signature="217:496" ph="..." />
-            <marker date="1509705272000" expanded="true" signature="229:428" ph="select servi... missing_value" />
-            <marker date="1509705272000" expanded="true" signature="529:928" ph="..." />
-            <marker date="1509705272000" expanded="true" signature="541:899" ph="create table... missing_value" />
-            <marker date="1509705272000" expanded="true" signature="1023:1252" ph="..." />
-            <marker date="1509705272000" expanded="true" signature="1035:1159" ph="insert into `missing_value`... " />
-            <marker date="1509705272000" expanded="true" signature="1282:1402" ph="..." />
-            <marker date="1509705272000" expanded="true" signature="1429:1554" ph="..." />
-            <marker date="1509705272000" expanded="true" signature="1477:1492" ph="drop table `... " />
-            <marker date="1509705272000" expanded="true" signature="1582:1781" ph="..." />
-            <marker date="1509705272000" expanded="true" signature="1643:1676" ph="select count... missing_value" />
-            <marker date="1509705272000" expanded="true" signature="1875:2058" ph="..." />
-            <marker date="1509705272000" expanded="true" signature="2093:2533" ph="..." />
-            <marker date="1509705272000" expanded="true" signature="2272:2486" ph="..." />
-            <marker date="1509705272000" expanded="true" signature="2578:3082" ph="..." />
-            <marker date="1509705272000" expanded="true" signature="2807:3063" ph="..." />
-            <marker date="1509705272000" expanded="true" signature="2865:3063" ph="..." />
-            <marker date="1509705272000" expanded="true" signature="3122:3658" ph="..." />
-            <marker date="1509705272000" expanded="true" signature="3261:3312" ph="..." />
-            <marker date="1509705272000" expanded="true" signature="3457:3640" ph="..." />
-            <marker date="1509705272000" expanded="true" signature="3672:3993" ph="..." />
-            <marker date="1509705272000" expanded="true" signature="3825:3993" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -926,13 +560,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alarm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alarm1.py" />
+    <entry file="file://$PROJECT_DIR$/alarm2.py" />
     <entry file="file://$PROJECT_DIR$/1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2202">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1509441268000" expanded="true" signature="0:50" ph="import ..." />
@@ -965,51 +614,177 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2.py">
+    <entry file="file://$PROJECT_DIR$/ReleaseCalicoIP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="171">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avg3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <marker date="1510040110000" expanded="true" signature="0:29" ph="import ..." />
-            <marker date="1510040110000" expanded="true" signature="352:507" ph="..." />
-            <marker date="1510040110000" expanded="true" signature="527:596" ph="..." />
+            <marker date="1510042446000" expanded="true" signature="0:44" ph="..." />
+            <marker date="1510042446000" expanded="true" signature="45:137" ph="import ..." />
+            <marker date="1510042446000" expanded="true" signature="240:519" ph="..." />
+            <marker date="1510042446000" expanded="true" signature="252:451" ph="select servi... missing_value" />
+            <marker date="1510042446000" expanded="true" signature="552:951" ph="..." />
+            <marker date="1510042446000" expanded="true" signature="564:922" ph="create table... missing_value" />
+            <marker date="1510042446000" expanded="true" signature="1046:1275" ph="..." />
+            <marker date="1510042446000" expanded="true" signature="1058:1182" ph="insert into `missing_value`... " />
+            <marker date="1510042446000" expanded="true" signature="1305:1425" ph="..." />
+            <marker date="1510042446000" expanded="true" signature="1452:1577" ph="..." />
+            <marker date="1510042446000" expanded="true" signature="1500:1515" ph="drop table `... " />
+            <marker date="1510042446000" expanded="true" signature="1605:1804" ph="..." />
+            <marker date="1510042446000" expanded="true" signature="1666:1699" ph="select count... missing_value" />
+            <marker date="1510042446000" expanded="true" signature="1898:2081" ph="..." />
+            <marker date="1510042446000" expanded="true" signature="2116:2556" ph="..." />
+            <marker date="1510042446000" expanded="true" signature="2295:2509" ph="..." />
+            <marker date="1510042446000" expanded="true" signature="2601:3105" ph="..." />
+            <marker date="1510042446000" expanded="true" signature="2830:3086" ph="..." />
+            <marker date="1510042446000" expanded="true" signature="2888:3086" ph="..." />
+            <marker date="1510042446000" expanded="true" signature="3145:3776" ph="..." />
+            <marker date="1510042446000" expanded="true" signature="3284:3335" ph="..." />
+            <marker date="1510042446000" expanded="true" signature="3502:3776" ph="..." />
+            <marker date="1510042446000" expanded="true" signature="3669:3776" ph="..." />
+            <marker date="1510042446000" expanded="true" signature="3790:4098" ph="..." />
+            <marker date="1510042446000" expanded="true" signature="3970:4065" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alarmFailCount.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-972">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1510288660000" expanded="true" signature="0:44" ph="..." />
+            <marker date="1510288660000" expanded="false" signature="45:97" ph="import ..." />
+            <marker date="1510288660000" expanded="true" signature="143:164" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="193:380" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="421:532" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="433:497" ph="select sum(f... avg_missing_value_missing_value" />
+            <marker date="1510288660000" expanded="true" signature="571:679" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="583:629" ph="update appli... " />
+            <marker date="1510288660000" expanded="true" signature="583:630" ph="update appli... " />
+            <marker date="1510288660000" expanded="true" signature="583:632" ph="update appli... " />
+            <marker date="1510288660000" expanded="true" signature="583:633" ph="update appli... " />
+            <marker date="1510288660000" expanded="true" signature="760:971" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="772:895" ph="insert into alarmfailcount... " />
+            <marker date="1510288660000" expanded="true" signature="1052:1312" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="1064:1236" ph="update alarm... " />
+            <marker date="1510288660000" expanded="true" signature="1368:1567" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="1380:1516" ph="update alarm... " />
+            <marker date="1510288660000" expanded="true" signature="1601:1732" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="1613:1704" ph="select modul... " />
+            <marker date="1510288660000" expanded="true" signature="1789:1973" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="1801:1921" ph="select num,p... alarmfailcount" />
+            <marker date="1510288660000" expanded="true" signature="2011:2208" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="2023:2156" ph="select servi... missing_value" />
+            <marker date="1510288660000" expanded="true" signature="2270:2481" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="2282:2418" ph="select failu... missing_value" />
+            <marker date="1510288660000" expanded="true" signature="2519:2750" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="2784:3228" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="2965:3179" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="3287:3511" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="3564:4326" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="3753:4293" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="3895:3932" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="4198:4293" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="4354:4909" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="4654:4866" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="4678:4866" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="4764:4866" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="4932:5070" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="5105:5977" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="5152:5947" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="5268:5388" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="5402:5501" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="5531:5947" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="6020:6139" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="6155:6417" ph="..." />
+            <marker date="1510288660000" expanded="true" signature="6245:6417" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/inc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35">
-          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1510041830000" expanded="true" signature="0:44" ph="..." />
-            <marker date="1510041830000" expanded="true" signature="45:95" ph="import ..." />
-            <marker date="1510041830000" expanded="true" signature="153:330" ph="..." />
-            <marker date="1510041830000" expanded="true" signature="360:396" ph="..." />
-            <marker date="1510041830000" expanded="true" signature="425:797" ph="..." />
-            <marker date="1510041830000" expanded="true" signature="823:898" ph="..." />
-            <marker date="1510041830000" expanded="true" signature="835:863" ph="select name application" />
-            <marker date="1510041830000" expanded="true" signature="835:882" ph="select name application" />
-            <marker date="1510041830000" expanded="true" signature="917:1164" ph="..." />
-            <marker date="1510041830000" expanded="true" signature="1194:1316" ph="..." />
-            <marker date="1510041830000" expanded="true" signature="1206:1286" ph="select servi... missing_value" />
-            <marker date="1510041830000" expanded="true" signature="1343:1697" ph="..." />
-            <marker date="1510041830000" expanded="true" signature="1522:1643" ph="..." />
+            <marker date="1510292308000" expanded="true" signature="0:44" ph="..." />
+            <marker date="1510292308000" expanded="true" signature="45:95" ph="import ..." />
+            <marker date="1510292308000" expanded="true" signature="153:330" ph="..." />
+            <marker date="1510292308000" expanded="true" signature="360:396" ph="..." />
+            <marker date="1510292308000" expanded="true" signature="425:797" ph="..." />
+            <marker date="1510292308000" expanded="true" signature="823:898" ph="..." />
+            <marker date="1510292308000" expanded="true" signature="835:863" ph="select name application" />
+            <marker date="1510292308000" expanded="true" signature="835:882" ph="select name application" />
+            <marker date="1510292308000" expanded="true" signature="917:1164" ph="..." />
+            <marker date="1510292308000" expanded="true" signature="1194:1316" ph="..." />
+            <marker date="1510292308000" expanded="true" signature="1206:1286" ph="select servi... missing_value" />
+            <marker date="1510292308000" expanded="true" signature="1343:1697" ph="..." />
+            <marker date="1510292308000" expanded="true" signature="1522:1643" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/avg3.py">
+    <entry file="file://$PROJECT_DIR$/alarmElasped.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="126" column="0" lean-forward="true" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+        <state relative-caret-position="230">
+          <caret line="169" column="0" lean-forward="false" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
           <folding>
-            <element signature="e#45#61#0" expanded="true" />
-            <marker date="1510042446000" expanded="true" signature="252:451" ph="select servi... missing_value" />
-            <marker date="1510042446000" expanded="true" signature="564:922" ph="create table... missing_value" />
-            <marker date="1510042446000" expanded="true" signature="1058:1182" ph="insert into `missing_value`... " />
-            <marker date="1510042446000" expanded="true" signature="1500:1515" ph="drop table `... " />
-            <marker date="1510042446000" expanded="true" signature="1666:1699" ph="select count... missing_value" />
+            <marker date="1510541682000" expanded="true" signature="0:44" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="45:97" ph="import ..." />
+            <marker date="1510541682000" expanded="true" signature="174:563" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="640:840" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="652:765" ph="insert into alarm... " />
+            <marker date="1510541682000" expanded="true" signature="917:1161" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="929:1085" ph="update alarm... " />
+            <marker date="1510541682000" expanded="true" signature="1213:1383" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="1225:1332" ph="update alarm... " />
+            <marker date="1510541682000" expanded="true" signature="1413:1534" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="1425:1506" ph="select modul... " />
+            <marker date="1510541682000" expanded="true" signature="1587:1759" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="1599:1707" ph="select num,p... alarm" />
+            <marker date="1510541682000" expanded="true" signature="1793:1971" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="1805:1919" ph="select servi... missing_value" />
+            <marker date="1510541682000" expanded="true" signature="2029:2222" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="2041:2159" ph="select elaps... missing_value" />
+            <marker date="1510541682000" expanded="true" signature="2252:2630" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="2429:2581" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="2685:2896" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="2945:3807" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="3117:3789" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="3269:3313" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="3557:3789" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="3831:4378" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="4127:4335" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="4151:4335" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="4237:4335" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="4409:5483" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="4456:5453" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="4629:4745" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="4759:4854" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="5045:5453" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="5526:5633" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="5649:5824" ph="..." />
+            <marker date="1510541682000" expanded="true" signature="5739:5824" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alarmFail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding>
+            <marker date="1510550944000" expanded="true" signature="213:277" ph="select sum(f... avg_missing_value_missing_value" />
+            <marker date="1510550944000" expanded="true" signature="363:413" ph="update appli... " />
+            <marker date="1510550944000" expanded="true" signature="512:654" ph="select failu... missing_value" />
           </folding>
         </state>
       </provider>

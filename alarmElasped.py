@@ -10,27 +10,27 @@ sys.setdefaultencoding('utf-8')
 #加区间报警
 
 def AlarmRange(number):
-    if number <= 30:
-        return 200
-    elif number <= 50 and number > 30:
-        return  100
+    if number <= 50:
+        return 200,15
     elif number <= 100 and number > 50:
-        return  80
+        return  100,10
     elif number <= 300 and number > 100:
-        return  50
+        return  60,10
     elif number <= 500 and number > 300:
-        return  30
+        return  50,10
     elif number <= 1000 and number > 500:
-        return  20
+        return  30,5
+    elif number <= 2000 and number > 1000:
+        return  20,5
     else:
-        return 10
+        return 10,5
 
-def InsertAlarmSql(module,serviceInterface,method,percentage):
-    sql = "insert into alarm(module,serviceInterface,method,percentage,num) values('%s','%s','%s','%s','1')"  %(module,serviceInterface,method,percentage)
+def InsertAlarmSql(module,serviceInterface,method,percentage , totaltime ):
+    sql = "insert into alarm(module,serviceInterface,method,percentage,totaltime , num) values('%s','%s','%s','%s','%s','1')"  %(module,serviceInterface,method,percentage, totaltime )
     return  sql
 
-def UpdateAlarmSql(module,serviceInterface,method,percentage):
-    sql = "update alarm set num = num + 1 , percentage = percentage + %s where module = '%s' and serviceInterface = '%s' and method = '%s' " %(percentage,module,serviceInterface,method)
+def UpdateAlarmSql(module,serviceInterface,method,percentage , totaltime ):
+    sql = "update alarm set num = num + 1 , percentage = percentage + %s , totaltime = totaltime + %s where module = '%s' and serviceInterface = '%s' and method = '%s' " %(percentage , totaltime ,module,serviceInterface,method)
     return  sql
 
 def ResetAlarmSql(module,serviceInterface,method):
@@ -42,7 +42,7 @@ def CompareAlarmSql(module):
     return  sql
 
 def SelectAlarmSql(module,serviceInterface,method):
-    sql = "select num,percentage from alarm where module = '%s' and serviceInterface = '%s' and method = '%s' " %(module,serviceInterface,method)
+    sql = "select num,percentage,totaltime from alarm where module = '%s' and serviceInterface = '%s' and method = '%s' " %(module,serviceInterface,method)
     return  sql
 
 
@@ -89,7 +89,7 @@ def CompareAvg(module, date, today ,timestamp):
 
     for st in dayslist:
         percentage = 0
-        tst = TodayAvg(todayavgtable,date,st[0],st[1])
+        tst = TodayAvg(todayavgtable,date,st[0],st[1])   #日均值
 
 
         if tst == 0:
@@ -98,10 +98,10 @@ def CompareAvg(module, date, today ,timestamp):
             #st[2] = 1
             continue
 
-        #if st[2] <= 5:
-        #    continue
+        if st[2] <= 10:
+            continue
 
-        sper = AlarmRange(st[2])
+        sper,count = AlarmRange(st[2])
 
         if ( tst - st[2] )  <= 0:
             continue
@@ -109,8 +109,9 @@ def CompareAvg(module, date, today ,timestamp):
             percentage =  ( tst - st[2] )  * 100 / st[2]
 
         if percentage > sper:
-            print module, st[0], st[1], percentage
-            alarm.append([module,st[0],st[1],percentage])
+            print module, st[0], st[1], percentage,count , st[2]
+            #alarm.append([module,st[0],st[1],percentage,count , st[2]])  #count是持续几次告警，st[2] 是 7日均线
+            alarm.append([module, st[0], st[1], percentage, tst])
 
     return alarm
 
@@ -138,31 +139,31 @@ def ResetAlarm(alarm):
     CloseMysql(conn, cursor)
     return 0
 
-def AlarmWeixin(str):
-    os.system("curl -X POST -d 'touser=dubboMonitor&content='%s http://192.168.8.253/sendchat.php >/dev/null 2>&1" % (str))
-    return 0;
-
 def CompareAlarm(alarm,date):
     conn, cursor = Mysql()
     for a in alarm:
         cursor.execute(SelectAlarmSql(a[0],a[1],a[2]))
-        res = cursor.fetchone();
+        res = cursor.fetchone()   #res[0] : num   ;  res[1] : percentage ; res[2] : totaltime
         if res == None:
-            cursor.execute(InsertAlarmSql(a[0],a[1],a[2],a[3]))
+            cursor.execute(InsertAlarmSql(a[0],a[1],a[2],a[3],a[4]))
             conn.commit()
             continue
         else:
-            cursor.execute(UpdateAlarmSql(a[0],a[1],a[2],a[3]))
+            cursor.execute(UpdateAlarmSql(a[0],a[1],a[2],a[3],a[4]))
             conn.commit()
 
-        if int(res[0]) >= 5:
-            percentage = res[1] / res[0]
+        avgE = res[2] / res[0]
+        percentage = res[1] / res[0]
+        daystime = avgE / ( percentage + 1 )
+        sper, count = AlarmRange(daystime)
+
+        if int(res[0]) >= count:
             cursor.execute(ResetAlarmSql(a[0],a[1],a[2]))
             conn.commit()
-            if percentage >= 30:
-                str = '严重:[%s]%s里的%s的%s方法调用超时\(浮动%s%%\)5次' %(date,a[0],a[1],a[2],percentage)
+            if percentage >= 50:
+                str = '严重:[%s]%s里的%s的%s方法调用\(平均%sms上浮%s%%\)%s次' %(date,a[0],a[1],a[2],avgE,percentage,res[0])
             else:
-                str = '告警:[%s]%s里的%s的%s方法调用连续5次上浮平均%s%%' %(date,a[0],a[1],a[2],percentage)
+                str = '告警:[%s]%s里的%s的%s方法调用\(平均%sms上浮%s%%\)%s次' %(date,a[0],a[1],a[2],avgE,percentage,res[0])
             #print str
 
             AlarmWeixin(str)
