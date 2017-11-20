@@ -10,20 +10,18 @@ sys.setdefaultencoding('utf-8')
 #加区间报警
 
 def AlarmRange(number):
-    if number <= 50:
-        return 200,15
-    elif number <= 100 and number > 50:
-        return  100,10
-    elif number <= 300 and number > 100:
-        return  60,10
-    elif number <= 500 and number > 300:
-        return  50,10
+    if number <= 30:
+        return 100,10
+    elif number <= 100 and number > 30:
+        return  80,5
+    elif number <= 500 and number > 100:
+        return  50,5
     elif number <= 1000 and number > 500:
-        return  30,5
+        return  30,3
     elif number <= 2000 and number > 1000:
-        return  20,5
+        return  20,3
     else:
-        return 10,5
+        return 10,1
 
 def InsertAlarmSql(module,serviceInterface,method,percentage , totaltime ):
     sql = "insert into alarm(module,serviceInterface,method,percentage,totaltime , num) values('%s','%s','%s','%s','%s','1')"  %(module,serviceInterface,method,percentage, totaltime )
@@ -34,7 +32,8 @@ def UpdateAlarmSql(module,serviceInterface,method,percentage , totaltime ):
     return  sql
 
 def ResetAlarmSql(module,serviceInterface,method):
-    sql = "update alarm set num = 0 , percentage = 0 where module = '%s' and serviceInterface = '%s' and method = '%s'" %(module,serviceInterface,method)
+    sql = "update alarm set num = 0 , percentage = 0 , totaltime = 0 where module = '%s' and serviceInterface = '%s' and method = '%s'" %(module,serviceInterface,method)
+    print sql
     return  sql
 
 def CompareAlarmSql(module):
@@ -151,9 +150,13 @@ def CompareAlarm(alarm,date):
         else:
             cursor.execute(UpdateAlarmSql(a[0],a[1],a[2],a[3],a[4]))
             conn.commit()
-
-        avgE = res[2] / res[0]
-        percentage = res[1] / res[0]
+        print res[0] , res[1] , res[2] , a[0] , a[1] , a[2]
+        if res[0] == 0:
+            cursor.execute(ResetAlarmSql(a[0],a[1],a[2]))
+            conn.commit
+            continue
+        avgE =  res[2] / res[0]
+        percentage =  res[1] / res[0]
         daystime = avgE / ( percentage + 1 )
         sper, count = AlarmRange(daystime)
 

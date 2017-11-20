@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
+from __future__ import division
 import  time
 from inc import *
 import os
@@ -41,7 +42,7 @@ def TodayAvgFail(module,date,today):
         return 0
     for row in res:
         serviceInterface, method , failureCount , successCount =  row[0] , row[1] , row[2] , row[3]
-        per = failureCount / (failureCount + successCount)  * 100
+        per = round(failureCount  * 100 / (failureCount + successCount) , 2 )
         print module,serviceInterface, method,failureCount , successCount , per
         if failureCount > 30:
             str = '严重:[%s]%s里的%s的%s方法调用失败%s%%' % (date, module, serviceInterface, method, per)
